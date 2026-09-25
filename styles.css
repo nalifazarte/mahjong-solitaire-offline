@@ -44,3 +44,23 @@ body.night[data-theme="vintage"] .board,body.night[data-theme="caviar"] .board,b
 .theme-picker{display:flex;align-items:center;gap:6px;color:var(--muted);font-size:10px}
 .theme-picker select{max-width:154px;padding:8px 26px 8px 10px;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--ink);font:600 11px system-ui;cursor:pointer}
 @media(max-width:620px){.top-actions{gap:6px}.theme-picker{gap:4px}.theme-picker select{max-width:132px;padding:7px 19px 7px 7px;font-size:10px}.theme-picker span{display:none}}
+
+/* Tema 7: Algodão Turquesa */
+body[data-theme="textile"]{--ink:#263f52;--muted:#789497;--lavender:#2a9e9a;--lavender-deep:#147477;--cream:#fff7e9;--line:#d0e2dc;--felt:#238f8b;background:radial-gradient(ellipse at 20% 15%,#52b3a9 0,transparent 50%),radial-gradient(#ffffff18 .8px,transparent 1px),#187f7e;color:var(--ink)}
+body[data-theme="textile"] .game-panel{background:#fffaf0;border-color:#d9e7dc;box-shadow:0 16px 40px #103d3933}
+body[data-theme="textile"] .brand-mark{background:#147477;color:#fff2df}
+body[data-theme="textile"] .board{background-color:#168581;background-image:radial-gradient(#c7f3d022 .8px,transparent 1px),radial-gradient(#124f501a 1px,transparent 1px);background-size:7px 7px,13px 13px;border-color:#4ab0a7}
+body[data-theme="textile"] .tile-face{background:linear-gradient(180deg,#fff8ea 0 86%,#72c6cb 86% 100%);border-color:#d5d7c7;box-shadow:2px 3px 0 #66c2ca,3px 5px 0 #ec6796,0 7px 8px #092e3450}
+body[data-theme="textile"] .tile-face:before{border-color:#d7dfcc}
+body[data-theme="textile"] footer{color:#d0ebe1}
+/* Tema 8: Laca de Romã */
+body[data-theme="pomegranate"]{--ink:#4d2634;--muted:#967982;--lavender:#92294f;--lavender-deep:#631735;--cream:#fff4e4;--line:#ead6ca;--felt:#bd8e83;background:radial-gradient(ellipse at 14% 15%,#e6b8a7 0,transparent 48%),repeating-linear-gradient(135deg,#d6aa99,#d6aa99 9px,#d0a091 10px,#d0a091 11px)}
+body[data-theme="pomegranate"] .game-panel{background:#fffaf0;border-color:#e5d0c2}
+body[data-theme="pomegranate"] .brand-mark{background:#761b42;color:#e6c57d}
+body[data-theme="pomegranate"] .board{background-color:#c5978b;background-image:radial-gradient(#fff4e533 1px,transparent 1px);background-size:10px 10px;border-color:#b8867a}
+body[data-theme="pomegranate"] .tile-face{background:linear-gradient(90deg,#741a41 0 8%,#fff5e5 8% 100%);border:1px solid #d8c3a9;box-shadow:2px 3px 0 #a73159,3px 5px 0 #542638,0 7px 8px #37202730}
+body[data-theme="pomegranate"] .tile-face:before{border-color:#bd9456}
+body[data-theme="pomegranate"] .intro h1 em{color:#8d2d4d}
+body.night[data-theme="textile"],body.night[data-theme="pomegranate"]{--ink:#f6eadc;--muted:#cbb5b3;--line:#64505d;--felt:#39333d;background:#28252f}
+body.night[data-theme="textile"] .game-panel,body.night[data-theme="pomegranate"] .game-panel{background:#39343e;border-color:#60515d}
+body.night[data-theme="textile"] .board,body.night[data-theme="pomegranate"] .board{background-color:#45404a;border-color:#655967}
