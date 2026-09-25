@@ -64,3 +64,15 @@ body[data-theme="pomegranate"] .intro h1 em{color:#8d2d4d}
 body.night[data-theme="textile"],body.night[data-theme="pomegranate"]{--ink:#f6eadc;--muted:#cbb5b3;--line:#64505d;--felt:#39333d;background:#28252f}
 body.night[data-theme="textile"] .game-panel,body.night[data-theme="pomegranate"] .game-panel{background:#39343e;border-color:#60515d}
 body.night[data-theme="textile"] .board,body.night[data-theme="pomegranate"] .board{background-color:#45404a;border-color:#655967}
+
+/* Tema 8: Jade Translúcido */
+body[data-theme="celadon"]{--ink:#263f39;--muted:#748b82;--lavender:#25816c;--lavender-deep:#145a4b;--cream:#fffdf5;--line:#cfe0d5;--felt:#185846;background:radial-gradient(ellipse at 18% 12%,#2b7962 0,transparent 48%),radial-gradient(ellipse at 95% 90%,#0e493f 0,transparent 38%),#164f43}
+body[data-theme="celadon"] .game-panel{background:#fffdf7;border-color:#d9e3d6;box-shadow:0 16px 40px #092c2438}
+body[data-theme="celadon"] .brand-mark{background:#17634f;color:#e4cb83}
+body[data-theme="celadon"] .board{background-color:#145244;background-image:linear-gradient(135deg,#a0d4b018 25%,transparent 25%,transparent 75%,#a0d4b018 75%),linear-gradient(135deg,#a0d4b018 25%,transparent 25%,transparent 75%,#a0d4b018 75%);background-size:20px 20px;background-position:0 0,10px 10px;border-color:#26735e}
+body[data-theme="celadon"] .tile-face{background:linear-gradient(135deg,#fffef8,#f0f4e5);border:1px solid #d0dbc9;box-shadow:2px 3px 0 #4ca17d,3px 5px 0 #12664f,0 7px 8px #092b2450}
+body[data-theme="celadon"] .tile-face:before{border-color:#b89a53}
+body[data-theme="celadon"] footer{color:#c2ded0}
+body.night[data-theme="celadon"]{--ink:#edf6ed;--muted:#b7ccbd;--line:#49685c;--felt:#283f39;background:#172f2c}
+body.night[data-theme="celadon"] .game-panel{background:#30433c;border-color:#49685c}
+body.night[data-theme="celadon"] .board{background-color:#283f39;border-color:#49685c}
