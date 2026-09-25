@@ -76,3 +76,16 @@ body[data-theme="celadon"] footer{color:#c2ded0}
 body.night[data-theme="celadon"]{--ink:#edf6ed;--muted:#b7ccbd;--line:#49685c;--felt:#283f39;background:#172f2c}
 body.night[data-theme="celadon"] .game-panel{background:#30433c;border-color:#49685c}
 body.night[data-theme="celadon"] .board{background-color:#283f39;border-color:#49685c}
+
+/* Tema 9: Mármore de Jade */
+body[data-theme="marble"]{--ink:#294749;--muted:#819393;--lavender:#367f79;--lavender-deep:#205a5a;--cream:#f8f7f2;--line:#d7dfdd;--felt:#20272a;background:radial-gradient(ellipse at 20% 5%,#38494b 0,transparent 42%),#20272a}
+body[data-theme="marble"] .game-panel{background:#f9f8f3;border-color:#cbd2d2;box-shadow:0 16px 40px #06141670}
+body[data-theme="marble"] .brand-mark{background:#1d6964;color:#e2d9ed}
+body[data-theme="marble"] .board{background-color:#20272a;background-image:radial-gradient(#b5b2c822 1px,transparent 1px);background-size:11px 11px;border-color:#475556}
+body[data-theme="marble"] .tile-face{background:linear-gradient(90deg,#f9f8f3 0 76%,#a7ded1 76% 83%,#bba4c2 83% 89%,#fbfaf5 89%),linear-gradient(135deg,#fff,#fff);border-color:#d1d5d1;box-shadow:2px 3px 0 #8b7d9c,3px 5px 0 #101b1c,0 7px 8px #0007}
+body[data-theme="marble"] .tile-face:before{border-color:#58a99b;background:linear-gradient(145deg,#fff8 0 12%,transparent 13% 28%,#70b9aa55 29% 42%,transparent 43% 62%,#c3b7d255 63% 76%,transparent 77%)}
+body[data-theme="marble"] .intro h1 em{color:#5c9d91}
+body[data-theme="marble"] footer{color:#bec7c3}
+body.night[data-theme="marble"]{--ink:#edf5f1;--muted:#bbc9c5;--line:#596765;--felt:#1d2426;background:#171d20}
+body.night[data-theme="marble"] .game-panel{background:#30383a;border-color:#596765}
+body.night[data-theme="marble"] .board{background-color:#1d2426;border-color:#596765}
