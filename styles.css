@@ -147,3 +147,6 @@ body[data-theme="constellation"] footer{color:#f9ffff}
 body.night[data-theme="constellation"]{--ink:#edf4fa;--muted:#bbcad6;--line:#526273;--felt:#374451;background:#222d38}
 body.night[data-theme="constellation"] .game-panel{background:#343e4a;border-color:#526273}
 body.night[data-theme="constellation"] .board{background-color:#374451;border-color:#526273}
+
+.tile-code{position:absolute;top:3px;right:4px;z-index:1;color:var(--tile-color);font:700 7px/1 system-ui, sans-serif;opacity:.9}
+@media(min-width:621px){.tile-code{font-size:8px;top:4px;right:5px}}
