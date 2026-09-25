@@ -135,3 +135,15 @@ body[data-theme="paris"] footer{color:#e6fff3}
 body.night[data-theme="zipper"],body.night[data-theme="paris"]{--ink:#f1effa;--muted:#c2bed3;--line:#59536d;--felt:#383544;background:#292633}
 body.night[data-theme="zipper"] .game-panel,body.night[data-theme="paris"] .game-panel{background:#383542;border-color:#59536d}
 body.night[data-theme="zipper"] .board,body.night[data-theme="paris"] .board{background-color:#383544;border-color:#59536d}
+
+/* Tema 14: Constelação */
+body[data-theme="constellation"]{--ink:#344969;--muted:#8094a9;--lavender:#258d99;--lavender-deep:#146878;--cream:#fffefa;--line:#cfdfeb;--felt:#c5d8e7;background:radial-gradient(ellipse at 15% 10%,#eef6fa 0,transparent 44%),#c2d6e6}
+body[data-theme="constellation"] .game-panel{background:#fffefa;border-color:#d4e2ea}
+body[data-theme="constellation"] .brand-mark{background:#07877f;color:#f8e8a2}
+body[data-theme="constellation"] .board{background-color:#bfd4e5;background-image:radial-gradient(#fff9 1px,transparent 1px);background-size:12px 12px;border-color:#adc5d9}
+body[data-theme="constellation"] .tile-face{background:linear-gradient(180deg,#fffefa 0 83%,#178a7e 83% 91%,#39b2a2 91% 96%,#fffefa 96%);border-color:#d6e2e6;box-shadow:2px 3px 0 #178b80,3px 5px 0 #126356,0 7px 8px #243b4a30}
+body[data-theme="constellation"] .tile-face:before{border-color:#d2c9df}
+body[data-theme="constellation"] footer{color:#f9ffff}
+body.night[data-theme="constellation"]{--ink:#edf4fa;--muted:#bbcad6;--line:#526273;--felt:#374451;background:#222d38}
+body.night[data-theme="constellation"] .game-panel{background:#343e4a;border-color:#526273}
+body.night[data-theme="constellation"] .board{background-color:#374451;border-color:#526273}
