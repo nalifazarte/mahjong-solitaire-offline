@@ -115,3 +115,23 @@ body[data-theme="amethyst"] footer{color:#e4d5e9}
 body.night[data-theme="amethyst"]{--ink:#f5edf6;--muted:#c9b6d0;--line:#5e4f67;--felt:#403848;background:#29232f}
 body.night[data-theme="amethyst"] .game-panel{background:#393340;border-color:#5e4f67}
 body.night[data-theme="amethyst"] .board{background-color:#403848;border-color:#5e4f67}
+
+/* Tema 12: Zíper de Algodão */
+body[data-theme="zipper"]{--ink:#36466c;--muted:#8691ad;--lavender:#7e7abb;--lavender-deep:#555894;--cream:#fffefe;--line:#dce3f1;--felt:#e4e8f1;background:radial-gradient(ellipse at 18% 8%,#f9ffff 0,transparent 42%),#e4e8f1}
+body[data-theme="zipper"] .game-panel{background:#fff;border-color:#e0e4ed}
+body[data-theme="zipper"] .board{background-color:#e2e7ee;background-image:radial-gradient(#a4b5ca33 1px,transparent 1px);background-size:9px 9px;border-color:#d0dae7}
+body[data-theme="zipper"] .tile-face{background:linear-gradient(90deg,#fff 0 82%,#cfb8dc 82% 89%,#edf9f8 89%);border-color:#dfe4e9;box-shadow:2px 3px 0 #c9b3d7,3px 5px 0 #77c7cd,0 7px 8px #39446720}
+body[data-theme="zipper"] .tile-face:before{border-color:#e8dce9;background:linear-gradient(135deg,#d8f3f0aa,transparent 45%,#f2e9f4aa)}
+body[data-theme="zipper"] .brand-mark{background:#6684b9;color:white}
+/* Tema 13: Paris Lavanda */
+body[data-theme="paris"]{--ink:#4a4c78;--muted:#858ba0;--lavender:#9688bd;--lavender-deep:#655d9b;--cream:#f8f2ff;--line:#e1d7f0;--felt:#71bca6;background:radial-gradient(ellipse at 85% 8%,#a6e0bf 0,transparent 40%),#79c5ac}
+body[data-theme="paris"] .game-panel{background:#fbf8ff;border-color:#e0d6ec}
+body[data-theme="paris"] .board{background-color:#76bfa9;background-image:radial-gradient(#edfff544 1px,transparent 1px);background-size:12px 12px;border-color:#9ad8c1}
+body[data-theme="paris"] .tile-face{background:linear-gradient(180deg,#fbf7ff 0 86%,#d5b8e5 86% 93%,#8875b1 93%);border-color:#d5c5e7;box-shadow:2px 3px 0 #b9a4d4,3px 5px 0 #75659a,0 7px 8px #244c4533}
+body[data-theme="paris"] .tile-face:before{border-color:#b7c6dc;background:linear-gradient(135deg,#fff8,transparent 50%,#8cd5bb44)}
+body[data-theme="paris"] .brand-mark{background:#786ca7;color:#fff}
+body[data-theme="paris"] .intro h1 em{color:#f9f0ff}
+body[data-theme="paris"] footer{color:#e6fff3}
+body.night[data-theme="zipper"],body.night[data-theme="paris"]{--ink:#f1effa;--muted:#c2bed3;--line:#59536d;--felt:#383544;background:#292633}
+body.night[data-theme="zipper"] .game-panel,body.night[data-theme="paris"] .game-panel{background:#383542;border-color:#59536d}
+body.night[data-theme="zipper"] .board,body.night[data-theme="paris"] .board{background-color:#383544;border-color:#59536d}
