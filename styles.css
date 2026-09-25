@@ -102,3 +102,16 @@ body[data-theme="club"] footer{color:#c6e8e1}
 body.night[data-theme="club"]{--ink:#eef8f3;--muted:#b9d0ce;--line:#416669;--felt:#17484b;background:#123439}
 body.night[data-theme="club"] .game-panel{background:#29474b;border-color:#416669}
 body.night[data-theme="club"] .board{background-color:#17484b;border-color:#416669}
+
+/* Tema 11: Ametista Marmorizada */
+body[data-theme="amethyst"]{--ink:#45334f;--muted:#91809a;--lavender:#a06dab;--lavender-deep:#65457a;--cream:#fffafd;--line:#e5d8e9;--felt:#624e67;background:radial-gradient(ellipse at 25% 5%,#b68fbb 0,transparent 45%),radial-gradient(ellipse at 85% 90%,#574461 0,transparent 40%),#68546b}
+body[data-theme="amethyst"] .game-panel{background:#fffafd;border-color:#e5d9e7;box-shadow:0 16px 40px #31243b38}
+body[data-theme="amethyst"] .brand-mark{background:#684875;color:#f1d7e9}
+body[data-theme="amethyst"] .board{background-color:#624e67;background-image:radial-gradient(#eadcf022 1px,transparent 1px);background-size:9px 9px;border-color:#92789a}
+body[data-theme="amethyst"] .tile-face{background:linear-gradient(180deg,#fff 0 84%,#c7a0d0 84% 91%,#734b85 91% 100%);border-color:#ddd1e2;box-shadow:2px 3px 0 #c08dcc,3px 5px 0 #583965,0 7px 8px #25182d60}
+body[data-theme="amethyst"] .tile-face:before{border-color:#c6a7cf;background:linear-gradient(145deg,#fff8 0 15%,transparent 16% 38%,#b18bb355 39% 54%,transparent 55% 75%,#80638d55 76%)}
+body[data-theme="amethyst"] .intro h1 em{color:#f0c6e5}
+body[data-theme="amethyst"] footer{color:#e4d5e9}
+body.night[data-theme="amethyst"]{--ink:#f5edf6;--muted:#c9b6d0;--line:#5e4f67;--felt:#403848;background:#29232f}
+body.night[data-theme="amethyst"] .game-panel{background:#393340;border-color:#5e4f67}
+body.night[data-theme="amethyst"] .board{background-color:#403848;border-color:#5e4f67}
