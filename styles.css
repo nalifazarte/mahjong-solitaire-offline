@@ -89,3 +89,16 @@ body[data-theme="marble"] footer{color:#bec7c3}
 body.night[data-theme="marble"]{--ink:#edf5f1;--muted:#bbc9c5;--line:#596765;--felt:#1d2426;background:#171d20}
 body.night[data-theme="marble"] .game-panel{background:#30383a;border-color:#596765}
 body.night[data-theme="marble"] .board{background-color:#1d2426;border-color:#596765}
+
+/* Tema 10: Clube Turquesa */
+body[data-theme="club"]{--ink:#174d60;--muted:#6e9aa0;--lavender:#1599aa;--lavender-deep:#087489;--cream:#fffefa;--line:#c6e1e0;--felt:#087e82;background:radial-gradient(ellipse at 25% 10%,#13a0a0 0,transparent 46%),#087a7c}
+body[data-theme="club"] .game-panel{background:#fffcf5;border-color:#b9dddd;box-shadow:0 16px 40px #06383f55}
+body[data-theme="club"] .brand-mark{background:#087e82;color:#fff}
+body[data-theme="club"] .board{background-color:#087a7c;background-image:radial-gradient(#c3ecec22 1px,transparent 1px);background-size:8px 8px;border-color:#38a3a1}
+body[data-theme="club"] .tile-face{background:linear-gradient(180deg,#fffefa 0 70%,#e7c448 70% 78%,#d64b91 78% 86%,#49b9c5 86% 93%,#fffefa 93%);border-color:#c7e7e7;box-shadow:2px 3px 0 #e6c044,3px 5px 0 #d5478e,0 7px 8px #032e3860}
+body[data-theme="club"] .tile-face:before{border-color:#e5f2e8}
+body[data-theme="club"] .intro h1 em{color:#a0e3dc}
+body[data-theme="club"] footer{color:#c6e8e1}
+body.night[data-theme="club"]{--ink:#eef8f3;--muted:#b9d0ce;--line:#416669;--felt:#17484b;background:#123439}
+body.night[data-theme="club"] .game-panel{background:#29474b;border-color:#416669}
+body.night[data-theme="club"] .board{background-color:#17484b;border-color:#416669}
