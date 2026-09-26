@@ -150,3 +150,10 @@ body.night[data-theme="constellation"] .board{background-color:#374451;border-co
 
 .tile-code{position:absolute;top:3px;right:4px;z-index:1;color:var(--tile-color);font:700 7px/1 system-ui, sans-serif;opacity:.9}
 @media(min-width:621px){.tile-code{font-size:8px;top:4px;right:5px}}
+
+/* Stable stacked layout: empty positions stay in place after a match. */
+.board{grid-template-columns:repeat(var(--cols),var(--tile-w));grid-auto-rows:calc(var(--tile-w)*1.3);grid-auto-flow:row;overflow:visible;}
+.board[data-size="32"]{--tile-w:min(7vw,46px)}
+.board[data-size="72"]{--tile-w:min(5.5vw,42px)}
+.board[data-size="144"]{--tile-w:min(4.8vw,38px)}
+@media(max-width:620px){.board[data-size="32"]{--tile-w:min(calc((100vw - 128px)/6),46px)}.board[data-size="72"]{--tile-w:min(calc((100vw - 128px)/8),42px)}.board[data-size="144"]{--tile-w:min(calc((100vw - 128px)/12),38px)}}
